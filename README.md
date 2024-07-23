@@ -14,7 +14,7 @@ Main metric used - accuracy.
 ## Summary
 
 Pretrained ResNet34 model with following modifications was used to achieve the goal:
-* Last fully connected layer was replaced with new one with 5 outputs accordind to quantity of classes expected.
+* Last fully connected layer was replaced with new one with 5 outputs according to the quantity of classes expected.
 * Only last layer's weights were updated during the training procedure
 
 <img src='resnet.png'>
