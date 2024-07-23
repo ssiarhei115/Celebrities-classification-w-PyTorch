@@ -1,7 +1,7 @@
 # Multiclass classification using a pretrained neural network
 
 ## Main goal
-Make multiclass celebreties classification model using pretrained Neural Network
+Make multiclass celebrities classification model using pretrained Neural Network
 
 ## Data description
 
