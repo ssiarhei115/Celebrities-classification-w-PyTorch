@@ -5,7 +5,7 @@ Make multiclass classification model using pretrained Neural Network
 
 ## Data description
 
-Primary dataset consists of 2 folders - train, valid; each of them contains 5 folders with pictures of celebrities: Elon Mask, Bill Gates, Jeff Bezos, Mark Zuckerberg, Steve Jobs. Folder 'test' contains one image for prediction test purpose, it was downloaded from the Internet.
+Primary dataset consists of 2 folders - train (3000 images), valid (914 images); each of them contains 5 folders with pictures of celebrities: Elon Mask, Bill Gates, Jeff Bezos, Mark Zuckerberg, Steve Jobs. Folder 'test' contains one image for prediction test purpose, it was downloaded from the Internet.
 
 ## Metric
 
