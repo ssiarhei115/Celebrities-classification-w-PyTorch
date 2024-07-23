@@ -5,7 +5,7 @@ Make multiclass classification model using pretrained Neural Network
 
 ## Data description
 
-Primary dataset consists of 2 folders - train, valid; each of them contains 5 folders with pictures of celebrities: Elon Mask, Bill Gates, Jeff Bezos, Mark Zuckerberg, Steve Jobs. 
+Primary dataset consists of 2 folders - train, valid; each of them contains 5 folders with pictures of celebrities: Elon Mask, Bill Gates, Jeff Bezos, Mark Zuckerberg, Steve Jobs. Folder 'test' contains one image for prediction test purpose, it was downloaded from the Internet.
 
 ## Metric
 
@@ -17,7 +17,7 @@ Pretrained ResNet34 model with following modifications was used to achieve the g
 * Last fully connected layer was replaced with new one with 5 outputs accordind to quantity of classes expected.
 * Only last layer's weights were updated during the training procedure
 
-<img src='6.png'>
+<img src='resnet.png'>
 
 As a result accuracy value more than 90% was achived on validation subset.
 
