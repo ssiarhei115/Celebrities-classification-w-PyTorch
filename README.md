@@ -17,7 +17,7 @@ Pretrained ResNet34 model with following modifications was used to achieve the g
 * Last fully connected layer was replaced with new one with 5 outputs accordind to quantity of classes expected.
 * Only last layer's weights were updated during the training procedure
 
-<img src='data/Resnet-34-Architecture.png'>
+<img src='data/6.png'>
 
 As a result accuracy value more than 90% was achived on validation subset.
 
